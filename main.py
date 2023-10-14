@@ -1,5 +1,6 @@
 import pandas as pd
 
 names = ["Maria", "Adam", "Peter", "Vanessa", "Hanna"]
-data = pd.DataFrame(names)
+titeld_column = {"Name": names}
+data = pd.DataFrame(titeld_column)
 print(data)
