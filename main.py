@@ -15,7 +15,7 @@ select_column = data["Weight"] # Selecting a specific column
 select_column = data["Weight"][2] # Selecting a specific persons weight (by column)
 select_row = data.iloc[1] # Selecting a specific row
 select_row = data.iloc[1]["Height"] # Selecting a specific persons height (by row)
-# print(select_row)
+print(select_row)
 
 
 # Manipulating DataFrame values
@@ -25,7 +25,7 @@ for i in range(len(data)): # Looping through the data
     bmi.append(bmi_score) # Appening the BMI score to the list
 
 data["BMI"] = bmi # Cretaing a new column to the DataFrame
-# print(data)
+print(data)
 
 
 # Save data to file
