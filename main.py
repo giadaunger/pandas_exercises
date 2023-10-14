@@ -25,4 +25,8 @@ for i in range(len(data)): # Looping through the data
     bmi.append(bmi_score) # Appening the BMI score to the list
 
 data["BMI"] = bmi # Cretaing a new column to the DataFrame
-print(data)
+# print(data)
+
+
+# Save data to file
+data.to_csv("bmi.csv", sep="\t")
